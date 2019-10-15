@@ -36,18 +36,53 @@
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
 	          <li class="nav-item"><a href="about.html" class="nav-link">International</a></li>
-	          <li class="nav-item"><a href="games.html" class="nav-link">Games</a></li>
+	          <li class="nav-item"><a href="games.html" class="nav-link">Domestic cricket</a></li>
 	          <li class="nav-item"><a href="blog.html" class="nav-link">Womens Cricket</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-	          <li class="nav-item cta"><a href="#" class="nav-link">Buy Ticket</a></li>
+	          <li class="nav-item"><a href="contact.html" class="nav-link">contact </a></li>
+            <li class="nav-item"><a href="login.html" class="nav-link">LOGIN </a></li>
+            <li class="nav-item"><a href="signup.html" class="nav-link">SIGN UP </a></li>
 
 	        </ul>
 	      </div>
 	    </div>
 	  </nav>
     <!-- END nav -->
+    <!-- SIGN UP MODAL -->
+  <div id="modal-signup" class="modal">
+    <div class="modal-content">
+      <h4>Sign up</h4><br />
+      <form id="signup-form">
+        <div class="input-field">
+          <input type="email" id="signup-email" required />
+          <label for="signup-email">Email address</label>
+        </div>
+        <div class="input-field">
+          <input type="password" id="signup-password" required />
+          <label for="signup-password">Choose password</label>
+        </div>
+        <button class="btn yellow darken-2 z-depth-0">Sign up</button>
+      </form>
+    </div>
+  </div>
+  <!-- LOGIN MODAL -->
+  <div id="modal-login" class="modal">
+    <div class="modal-content">
+      <h4>Login</h4><br />
+      <form id="login-form">
+        <div class="input-field">
+          <input type="email" id="login-email" required />
+          <label for="login-email">Email address</label>
+        </div>
+        <div class="input-field">
+          <input type="password" id="login-password" required />
+          <label for="login-password">Your password</label>
+        </div>
+        <button class="btn yellow darken-2 z-depth-0">Login</button>
+      </form>
+    </div>
+  </div>
 
     <div class="hero-wrap js-fullheight" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
@@ -56,7 +91,6 @@
           <div class="col-md-6 mt-5 pt-5 ftco-animate mt-5" data-scrollax=" properties: { translateY: '70%' }">
             <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Bangladesh Cricket Board</h1>
 
-            <p><a href="#" class="btn btn-secondary py-3 px-4">Watch match</a> <a href="#" class="btn btn-primary py-3 px-4">Get ticket</a></p>
           </div>
         </div>
       </div>
@@ -100,7 +134,7 @@
 								</div>
 								<div class="col-md-6 pb-4 pb-lg-0 col-lg-2">
 									<div class="text">
-										<p class="mb-0"><a href="#" class="btn btn-primary py-3">Buy Tickets</a></p>
+										<p class="mb-0"><a href="#" class="btn btn-primary py-3"></a></p>
 									</div>
 								</div>
 							</div>
@@ -109,45 +143,6 @@
 	    	</div>
 	    </div>
     </section>
-
-		<section class="ftco-section ftco-no-pb">
-			<div class="container">
-				<div class="row justify-content-center">
-					<div class="col-lg-10">
-	          <div class="heading-section text-center ftco-animate">
-	          	<span class="subheading">Game Report</span>
-	            <h2 class="mb-4">Latest Game Result</h2>
-	          </div>
-	          <div class="scoreboard slash">
-	          	<div class="divider ftco-animate text-center mb-4"><span></span></div>
-	          	<div class="sport-team-wrap ftco-animate">
-	          		<span class="vs">vs</span>
-		          	<div class="d-sm-flex mb-4">
-			          	<div class="sport-team d-flex align-items-center">
-		          			<div class="img logo" style="background-image: url(images/team-1.jpg);"></div>
-										<div class="text-center px-1 px-md-3 desc">
-											<h3 class="score win"><span>12</span></h3>
-											<h4 class="team-name">Bangladesh</h4>
-										</div>
-			          	</div>
-			          	<div class="sport-team d-flex align-items-center">
-		          			<div class="img logo order-sm-last" style="background-image: url(images/team-2.jpg);"></div>
-										<div class="text-center px-1 px-md-3 desc">
-											<h3 class="score lost"><span>8</span></h3>
-											<h4 class="team-name">India</h4>
-										</div>
-			          	</div>
-		          	</div>
-	          	</div>
-	          	<div class="text-center ftco-animate">
-		          	<p class="mb-0"><a href="#" class="btn btn-black">More Details</a></p>
-		          </div>
-	          </div>
-					</div>
-				</div>
-			</div>
-		</section>
-
 
 
 		<section class="ftco-section ftco-game-schedule ftco-no-pt">
@@ -162,7 +157,7 @@
 					<div class="col-md-12 carousel-game-schedule owl-carousel">
 						<div class="item">
 							<div class="game-sched text-vs text-center">
-								<div class="divider"><p><span>Home @ Arena</span> - <span>June 7, 2018</span></p></div>
+								<div class="divider"><p><span></span> - <span>June 7, 2018</span></p></div>
 								<div class="d-flex sched-wrap">
 									<span class="vs">vs</span>
 									<div class="team-logo text-center">
@@ -194,7 +189,7 @@
 	          </div>
 	          <div class="item">
 							<div class="game-sched text-vs text-center">
-								<div class="divider"><p><span>Home @ Arena</span> - <span>June 7, 2018</span></p></div>
+								<div class="divider"><p><span></span> - <span>June 7, 2018</span></p></div>
 								<div class="d-flex sched-wrap">
 									<span class="vs">vs</span>
 									<div class="team-logo text-center">
@@ -212,7 +207,7 @@
 
 	          <div class="item">
 							<div class="game-sched text-vs text-center">
-								<div class="divider"><p><span>Home @ Arena</span> - <span>June 7, 2018</span></p></div>
+								<div class="divider"><p><span></span> - <span>June 7, 2018</span></p></div>
 								<div class="d-flex sched-wrap">
 									<span class="vs">vs</span>
 									<div class="team-logo text-center">
@@ -247,7 +242,7 @@
         	</div>
         	<div class="col-md-5">
         		<div class="game-sched text-vs text-center mb-1 ftco-animate">
-							<div class="divider"><p><span>Home @ Arena</span> - <span>June 7, 2018</span></p></div>
+							<div class="divider"><p><span></span> - <span>June 7, 2018</span></p></div>
 							<div class="d-flex sched-wrap">
 								<span class="vs">vs</span>
 								<div class="team-logo text-center">
@@ -361,7 +356,7 @@
               			<span class="mos">May</span>
               		</div>
               	</div>
-                <h3 class="heading"><a href="#">Inconsistent selection policies hamper Bangladesh-hopefuls</a></h3>
+                <h3 class="heading"><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwi2z6i3q5blAhVVeysKHQiKCz8QFjAAegQIABAB&url=https%3A%2F%2Fwww.cricbuzz.com%2Fcricket-news%2F109682%2Finconsistent-selection-policies-hamper-bangladesh-hopefuls&usg=AOvVaw1BYA_1MNHWVf12_l1JZ6g5">Inconsistent selection policies hamper Bangladesh-hopefuls</a></h3>
               </div>
             </div>
           </div>
@@ -379,7 +374,7 @@
               			<span class="mos">May</span>
               		</div>
               	</div>
-                <h3 class="heading"><a href="#">Spin-heavy Bangladesh gear up for Afghanistan challenge</a></h3>
+                <h3 class="heading"><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwjikK2SrJblAhUJQH0KHf41DeMQFjAAegQIAhAB&url=https%3A%2F%2Fwww.cricbuzz.com%2Fcricket-news%2F109727%2Fspin-heavy-bangladesh-gear-up-for-afghanistan-challenge&usg=AOvVaw0Y_XxbpYNcIr6jRUiTzluN">Spin-heavy Bangladesh gear up for Afghanistan challenge</a></h3>
               </div>
             </div>
           </div>
@@ -397,7 +392,7 @@
               			<span class="mos">May</span>
               		</div>
               	</div>
-                <h3 class="heading"><a href="#">Mortaza's non-performance became an issue at World Cup - Shakib</a></h3>
+                <h3 class="heading"><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwiD3ZSqrJblAhUFOisKHeXwCU4QFjAAegQIABAB&url=https%3A%2F%2Fwww.cricbuzz.com%2Fcricket-news%2F109642%2Fmortazas-non-performance-became-an-issue-at-world-cup-shakib&usg=AOvVaw3JEcmYmZupTt59YLsuZcBz">Mortaza's non-performance became an issue at World Cup - Shakib</a></h3>
               </div>
             </div>
           </div>
@@ -415,7 +410,7 @@
               			<span class="mos">May</span>
               		</div>
               	</div>
-                <h3 class="heading"><a href="#">Taskin returns to Bangladesh Test squad</a></h3>
+                <h3 class="heading"><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwjV_bO6rJblAhXafisKHQQrB3gQFjAAegQIBRAB&url=https%3A%2F%2Fwww.cricbuzz.com%2Fcricket-news%2F109641%2Ftaskin-returns-to-bangladesh-test-squad&usg=AOvVaw1tQh_JycTnqZ1oJXoqNFPh">Taskin returns to Bangladesh Test squad</a></h3>
               </div>
             </div>
           </div>
@@ -424,94 +419,86 @@
     </section>
 
 
-		<section class="ftco-subscribe img" style="background-image: url(images/bg_2.jpg);">
-      <div class="overlay">
-        <div class="container">
-          <div class="row d-flex justify-content-center">
-            <div class="col-md-9 text-wrap text-center heading-section heading-section-white ftco-animate">
-              <h2>Subcribe to our upcoming match</h2>
-              <div class="row d-flex justify-content-center mt-4 mb-4">
-                <div class="col-md-10">
-                  <form action="#" class="subscribe-form">
-                    <div class="form-group d-flex">
-                      <input type="text" class="form-control" placeholder="Enter email address">
-                      <input type="submit" value="Subscribe" class="submit px-3">
-                    </div>
-                  </form>
+
+
+
+        <footer class="ftco-footer ftco-section">
+          <div class="container-fluid px-md-5">
+            <div class="row mb-5">
+              <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                  <h2 class="ftco-heading-2"></h2>
+                  <p></p>
+                  <ul class="ftco-footer-social list-unstyled mt-5">
+                    <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="ftco-footer-widget mb-4 ml-md-4">
+                  <h2 class="ftco-heading-2">Services</h2>
+                  <ul class="list-unstyled">
+
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="ftco-footer-widget mb-4 ml-md-4">
+                  <h2 class="ftco-heading-2">About BCB</h2>
+                  <ul class="list-unstyled">
+                    <li><a href="#"><span class="icon-long-arrow-right mr-2"></span></a></li>
+                    <li><a href="http://www.tigercricket.com.bd/"><span class="icon-long-arrow-right mr-2"></span>Meet the team</a></li>
+                    <li><a href="https://www.thedailystar.net/frontpage/news/domingo-named-bangladesh-coach-1786789"><span class="icon-long-arrow-right mr-2"></span>Coach</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md">
+                 <div class="ftco-footer-widget mb-4">
+
+                  <ul class="list-unstyled">
+                    <li><a href="http://www.tigercricket.com.bd/"><span class="icon-long-arrow-right mr-2"></span>About Us</a></li>
+
+                    <li><a href="contact.html"><span class="icon-long-arrow-right mr-2"></span>have a question?? Contact us </a></li>
+
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                	<h2 class="ftco-heading-2"></h2>
+                	<div class="block-23 mb-3">
+
+    	            </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
+            <div class="row">
+              <div class="col-md-12 text-center">
 
+                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+       &copy;<script>document.write(new Date().getFullYear());</script> <i class="icon-heart color-danger" aria-hidden="true"></i>  <a href="https://colorlib.com" target="_blank"></a>
+      <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+              </div>
+            </div>
+          </div>
+        </footer>
+    <script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDtjTkbcXGHsghWZtk0F_2SztEZgT7rGoE",
+    authDomain: "bcb1-5b8f1.firebaseapp.com",
+    databaseURL: "https://bcb1-5b8f1.firebaseio.com",
+    projectId: "bcb1-5b8f1",
 
-    <footer class="ftco-footer ftco-section">
-      <div class="container-fluid px-md-5">
-        <div class="row mb-5">
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2"></h2>
-              <p></p>
-              <ul class="ftco-footer-social list-unstyled mt-5">
-                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4 ml-md-4">
-              <h2 class="ftco-heading-2">Services</h2>
-              <ul class="list-unstyled">
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Senior Team></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span></a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Reviews</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>FAQs</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4 ml-md-4">
-              <h2 class="ftco-heading-2">About BCB</h2>
-              <ul class="list-unstyled">
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span></a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Meet the team</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Coach</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Company</h2>
-              <ul class="list-unstyled">
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>About Us</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Press</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Careers</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-            	<h2 class="ftco-heading-2">Have a Questions?</h2>
-            	<div class="block-23 mb-3">
+  };
+  const auth=firebase.auth();
 
-	            </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 text-center">
-
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-   &copy;<script>document.write(new Date().getFullYear());</script> <i class="icon-heart color-danger" aria-hidden="true"></i>  <a href="https://colorlib.com" target="_blank"></a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-          </div>
-        </div>
-      </div>
-    </footer>
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 
 
 
@@ -520,6 +507,8 @@
 
 
   <script src="js/jquery.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-app.js"></script>
+
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
@@ -535,6 +524,8 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
+  <script src="scripts/authtry.js"></script>
+  <script src="scripts/index.js"></script>
 
   </body>
 </html>
